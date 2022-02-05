@@ -1,0 +1,40 @@
+body{
+    background-image:
+    linear-gradient(rgb(0, 255, 221),#D81E5B)
+    ;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* TYPOGRAPHY */
+h1{
+    font-family: 'Festive', cursive;
+    font-size: 6.854rem;
+    color:#D72483;
+}
+
+h2{
+    font-size: 4.236rem;
+    color:#274690;
+    text-shadow: 6px 6px #17BEBB;
+    text-indent: 52px
+}
+
+#ingredients{
+    background-color: #F5E960;
+    border-style: groove;
+    border-color: #7FB800;
+    border-width: 12px;
+}
+
+#instructions{
+    background-color: #FFD9DA;
+    border-style: groove;
+    border-color: #7FB800;
+    border-width: 12px;
+}
+
+p{
+    background-color: #0E7C7B;
+    font-size: 1.618rem;
+    color: #F3A712;
+}

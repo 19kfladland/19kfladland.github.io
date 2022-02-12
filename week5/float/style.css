@@ -1,0 +1,50 @@
+body{
+    background-color: #044d42;
+}
+
+header{
+    min-height: 200px;
+    background-color: #CA0B01;
+    width: 100%;
+}
+
+.col-1{
+    min-height: 200px;
+    background-color: #DF8602;
+    width: 25%;
+    float: left;
+}
+
+.col-2{
+    min-height: 200px;
+    background-color: #FADF8E;
+    width: 25%;
+    float: left;
+}
+
+.col-3{
+    min-height: 200px;
+    background-color: #0AAC94;
+    width: 25%;
+    float: left;
+}
+
+.col-4{
+    min-height: 200px;
+    background-color: #433034;
+    width: 25%;
+    float: left;
+}
+
+.row{
+    min-height: 25px;
+    width: 100%;
+    clear: both;
+}
+
+footer{
+    min-height: 200px;
+    background-color: #181112;
+    width: 100%;
+    clear: both;
+}

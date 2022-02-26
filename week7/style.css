@@ -1,0 +1,74 @@
+body{
+    background-color: #0aac94;
+    margin: 10px;
+    font-family: 'Lora', serif;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 6.854rem;
+    color: #433034;
+}
+h2{
+    font-family: 'Satisfy', cursive; 
+    font-size: 2.618rem;
+    color: #433034;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #433034;
+}
+/*LAYOUT*/
+
+/*CSS GRID SETUP*/
+header{
+    grid-area: header;
+    background-color: #fadf8e;
+    height: 400px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: #ca0b01;
+    border-top-width: 6px;
+}
+
+img{
+    width: 100%;
+}
+#image{
+    grid-area: image;
+    background-color: #df8602;
+    height: 500px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #df8602;
+}
+
+#ingredients{
+    grid-area: ingredients;
+    background-color: #fadf8e;
+    height: 512px;
+}
+#instructions{
+    grid-area: instructions;
+    background-color: #fadf8e;
+    height: 512px;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #433034;
+    height: 100px;
+    border-top-style: solid;
+    border-top-color: #fadf8e;
+    border-top-width: 72px;
+}
+
+.grid-container{
+    display: grid;
+    width: 95%;
+    margin: auto;
+    grid-template-areas:
+    'header header header'
+    'ingredients image instructions'
+    'ingredients image instructions'
+    'footer footer footer'
+    ;
+}
